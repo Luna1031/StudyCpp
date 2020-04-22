@@ -26,7 +26,7 @@ public:
 		printf("현재 시각 %d:%d:%d \n", this->hour, this->min, this->sec);
 	}
 };
-
+/*
 int main()
 {
 	Time now(17, 14, 24);
@@ -34,3 +34,4 @@ int main()
 	Time noon(44000);
 	noon.OutTime();
 }
+*/

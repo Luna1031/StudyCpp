@@ -18,19 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="ConvertClass.cpp" />
-    <ClCompile Include="HumanCopy.cpp" />
-    <ClCompile Include="human_destr_test.cpp" />
-    <ClCompile Include="newHuman.cpp" />
-    <ClCompile Include="time_constr_test.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{0BE51BF8-C41F-4A28-B7CE-323A72A8D939}</ProjectGuid>
-    <RootNamespace>Chap03</RootNamespace>
+    <ProjectGuid>{2E785D66-2B63-4A72-8B43-1C36940CBC0F}</ProjectGuid>
+    <RootNamespace>Chap04App</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Chap03App</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -145,6 +137,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CarClass.cpp" />
+    <ClCompile Include="infoHide.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cursor.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

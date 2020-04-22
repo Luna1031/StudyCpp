@@ -15,20 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="time_constr_test.cpp">
+    <ClCompile Include="infoHide.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="human_destr_test.cpp">
+    <ClCompile Include="CarClass.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="newHuman.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="HumanCopy.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ConvertClass.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cursor.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
