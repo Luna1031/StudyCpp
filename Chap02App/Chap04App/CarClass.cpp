@@ -65,7 +65,7 @@ public:
 		puts(Mes);
 	}
 };
-
+/*
 int main()
 {
 	Car C;
@@ -115,3 +115,4 @@ int main()
 		}
 	}
 }
+*/

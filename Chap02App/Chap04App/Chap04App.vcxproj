@@ -138,8 +138,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CarClass.cpp" />
-    <ClCompile Include="infoHide.cpp" />
+    <ClCompile Include="4_2.cpp" />
+    <ClCompile Include="ConstFunc.cpp" />
+    <ClCompile Include="ConstMambercpp.cpp" />
+    <ClCompile Include="DBQuery.cpp" />
+    <ClCompile Include="mutable.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cursor.h" />
